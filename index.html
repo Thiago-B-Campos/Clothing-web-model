@@ -2,12 +2,12 @@
 <html>
   <head>
     <script>
-      if (window.innerWidth <= 768) {
-        window.location.href = "Mobile/home/home-cel.html";
-      } else {
-        window.location.href = "Desktop/home/home_pc.html";
-      }
-    </script>
+     if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+       window.location.href = "Mobile/home/home-cel.html";
+     } else {
+       window.location.href = "Desktop/home/home_pc.html";
+     }
+</script>
   </head>
   <body></body>
 </html>
