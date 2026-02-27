@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-     if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-       window.location.href = "Mobile/home/home-cel.html";
-     } else {
-       window.location.href = "Desktop/home/home_pc.html";
-     }
+   <script>
+  if (!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    window.location.href = "Desktop/home/home_pc.html";
+  }
 </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
@@ -15,8 +13,8 @@
       content="Shop.co - Find clothes that matches your style. Browse through our diverse range of meticulously crafted garments."
     />
     <title>SHOP.CO - Find Your Style</title>
-    <link rel="stylesheet" href="globals-home-cel.css" />
-    <link rel="stylesheet" href="style-home-cel.css" />
+    <link rel="stylesheet" href="globals_home_cel.css" />
+    <link rel="stylesheet" href="style_home_cel.css" />
   </head>
   <body>
     <div class="homepage">
