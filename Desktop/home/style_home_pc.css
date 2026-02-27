@@ -1920,3 +1920,13 @@
 .homepage footer {
   position: relative;
 }
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.homepage {
+  max-width: 1440px;
+  width: 100%;
+}
