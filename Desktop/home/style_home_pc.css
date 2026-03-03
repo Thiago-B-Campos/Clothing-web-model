@@ -143,7 +143,7 @@
   position: absolute;
   width: 85.95%;
   height: 67.2%;
-  top: 32.8%;
+  top: 20.8%;
   left: 14.05%;
 }
 
@@ -177,7 +177,7 @@
 .homepage .text-wrapper-4 {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
+  margin-top: 2px;
   font-family: "Satoshi-Regular", Helvetica;
   font-weight: 400;
   color: #00000066;
